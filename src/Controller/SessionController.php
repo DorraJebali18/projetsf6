@@ -21,8 +21,6 @@ class SessionController extends AbstractController
             $nbreVisite = 1;
         }
         $session->set('nbVisite', $nbreVisite);
-
-        //set permet de mettre à jour le variable nbVisite
         return $this->render('session/index.html.twig');
     }
 }

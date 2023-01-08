@@ -10,7 +10,7 @@ use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints as Assert;
 
 /**
- * @ORM\Entity(repositoryClass=PersonneRepository::class)
+ * @ORM\Entity(repositoryClass="App\Repository\PersonneRepository", repositoryClass=PersonneRepository::class)
  * @ORM\HasLifecycleCallbacks()
  */
 class Personne

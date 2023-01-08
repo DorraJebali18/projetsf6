@@ -27,8 +27,8 @@ class FirstController extends AbstractController
     {
         // chercher au la abse de données vos users
         return $this->render('first/index.html.twig', [
-            'name' => 'Jebali',
-            'firstname' => 'Dorra'
+            'name' => 'Sellaouti',
+            'firstname' => 'Aymen'
         ]);
     }
 
